@@ -10,8 +10,8 @@
 #include "ESP32_MailClient.h"
 
 // REPLACE WITH YOUR NETWORK CREDENTIALS
-const char* ssid = "MGI";
-const char* password = "fv8$p2c(N4#t";
+const char* ssid = "xxx";
+const char* password = "xxxx";
 
 // 
 // 
