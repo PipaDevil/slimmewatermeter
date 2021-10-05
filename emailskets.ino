@@ -15,8 +15,8 @@ const char* password = "fv8$p2c(N4#t";
 
 // 
 // 
-#define emailSenderAccount    "waterkokeresp32@gmail.com"
-#define emailSenderPassword   "Segeltjes123!@#"
+#define emailSenderAccount   xxxxxx
+#define emailSenderPassword   xxxxx
 #define smtpServer            "smtp.gmail.com"
 #define smtpServerPort        465
 #define emailSubject          "[ALERT] ESP32 Temperature"
