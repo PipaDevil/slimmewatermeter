@@ -1,22 +1,19 @@
-/*********
-
-*********/
-
 #include <WiFi.h>
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
 #include <OneWire.h>
 #include <DallasTemperature.h>
-#include "ESP32_MailClient.h"
+#include <ESP32_MailClient.h>
+
 
 // REPLACE WITH YOUR NETWORK CREDENTIALS
-const char* ssid = "xxx";
-const char* password = "xxxx";
+const char* ssid = "dikkeballoe";
+const char* password = "Segeltjes123!@#";
 
 // 
 // 
-#define emailSenderAccount   xxxxxx
-#define emailSenderPassword   xxxxx
+#define emailSenderAccount    "waterkokeresp32@gmail.com"
+#define emailSenderPassword   "Segeltjes123!@#"
 #define smtpServer            "smtp.gmail.com"
 #define smtpServerPort        465
 #define emailSubject          "[ALERT] ESP32 Temperature"
